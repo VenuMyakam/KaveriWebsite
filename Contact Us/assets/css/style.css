@@ -1,0 +1,60 @@
+body {
+    font-family: 'Figtree', sans-serif;
+}
+.bg-hero-img{
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.bg-hero-img{
+    background-image: url('../images/bg-banner.png');
+}
+.info-line::after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 29.5%;
+    width: 1px;
+    background: #001346;
+    top: 48px;
+    right: 0;
+    left: -92px;
+    margin: auto;
+}
+.form-control{
+    background-color: #1C2E5B;
+    border: 1px solid #99ADDF;
+    color: white;
+}
+.form-control:focus {
+    color: white;
+    background-color: transparent;
+}
+.text-white p{
+    cursor: pointer;
+}
+.social-icons .btn-primary{
+    background-color: transparent;
+    border: 1px solid #99ADDF;
+}
+
+@media screen and (max-width: 767px) {
+    /* Your CSS rules for screens with a maximum width of 768px */
+    .info-line::after{
+        content: '';
+        position: absolute;
+        display: block;
+        height: 29.5%;
+        width: 0px;
+        background:#001346;
+    }
+  }
+  
+@media screen and (max-width: 767px) {
+    /* Your CSS rules for screens with a maximum width of 768px */
+    .mt-0{
+        margin-top: 50px !important;
+    }
+    }
+  
