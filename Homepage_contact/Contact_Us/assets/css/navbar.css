@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gotham');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+p{
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+}
+.bi-chevron-right{
+    font-size: 40px;
+    color: #B72928;
+}
+.card1{
+    background-color: #22325C;
+    color: #e2e2e2;
+    border-radius: 0;
+    border-color: #22325C;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 110px;
+}
+.card{
+    border-radius: 0px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: -80px;
+    margin-bottom: 60px;
+    /* min-height: 450px; */
+}
+.img-fluid{
+    border-radius: 10px;
+    
+}
+.card-title{
+    font-weight: bold;
+    color: black;
+    font-family: 'Figtree', sans-serif;
+}
+.card-text{
+  color: black;
+}
+.row>*{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.bg-body-tertiary {
+  background-color: #B72928 !important;
+  color: grey !important;
+  height: fit-content;
+  text-align: center;
+  font-size: 17px;
+  line-height: 2.8rem;
+}
+.nav-link {
+  color:#FFA4A4 !important;
+  font-family: 'Gotham Book', sans-serif;
+  font-weight: lighter;
+  padding: 2px;
+}
+.nav-link:hover {
+  color:white !important;
+}
+/* .fa-facebook, .fa-twitter, .fa-linkedin{
+  font-size: 40px;
+ 
+} */
