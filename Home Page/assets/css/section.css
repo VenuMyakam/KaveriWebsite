@@ -1,9 +1,8 @@
 .bg-background-image{
-    background: url('../images/bg-image.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    /* background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 39, 1, 0.11)) */
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.404)), url('../images/bg-image.png') !important;
 }
 .info-bg-image-blue{
     position: relative;
