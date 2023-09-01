@@ -1,0 +1,71 @@
+body{
+    font-family: Lato, sans-serif;
+}
+.bg-background{
+    background-color: #F4F5FA;
+}
+.info-title{
+    position: relative;
+    color: #23325D;
+    font-size: larger;
+}
+.info-title-text , p{
+    padding-left: 20px;
+}
+.info-title::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background-color: #BD2929;
+}
+.info-text , p{
+    font-size: large;
+}
+.accordion-item{
+    margin-bottom: 10px;
+    border-radius: 0.325rem;
+}
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+}
+.accordion-button{
+    font-weight: 700 !important;
+    border-radius: 0.325rem;
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    font-weight: 700;
+    background-color: transparent;
+    border-bottom-color: transparent;
+}
+.accordion-button::after {
+    filter: invert(20%) sepia(63%) saturate(2708%) hue-rotate(344deg) brightness(106%) contrast(89%);
+}
+.accordion-button::before {
+    filter: invert(20%) sepia(63%) saturate(2708%) hue-rotate(344deg) brightness(106%) contrast(89%);
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-icon) !important;
+}
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0);
+    --bs-accordion-border-color: #ffffff;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+    border-bottom-left-radius: var(--bs-accordion-inner-border-radius);
+    border-bottom-right-radius: var(--bs-accordion-inner-border-radius);
+}
+.accordion-body {
+    padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+    padding-top: 0;
+}
+.apply-btn .btn-primary{
+    background-color: #23325D;
+    border-radius: 0;
+    border-color: #23325D;
+    padding: 10px;
+}
