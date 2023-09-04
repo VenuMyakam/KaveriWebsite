@@ -1,0 +1,89 @@
+.bg-banner-img{
+    background-image: url('../images/Gate_sized.jpg');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 7% !important;
+}
+.info-text-header h1{
+    position: absolute;
+    right: 0;
+    left: 35%;
+    bottom: 15%;
+    font-size: 45px;
+}
+@media screen and (max-width:425px) {
+    .bg-banner-img {
+        padding: 14% !important;
+        background-position: center right;
+    }
+}
+@media screen and (min-width:320px) {
+    .info-text-header h1 {
+        position: absolute;
+        right: 0;
+        left: 15%;
+        bottom: 5%;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width:768px) {
+    .info-text-header h1 {
+        position: absolute;
+        right: 0;
+        left: 25%;
+        bottom: 13%;
+        font-size: 42px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .info-text-header h1 {
+        position: absolute;
+        right: 0;
+        left: 35%;
+        bottom: 13%;
+        font-size: 42px;
+    }
+}
+/* .nav::after{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 118px solid #C72727;
+    border-right: 118px solid #C72727;
+    border-bottom: 100px solid transparent;
+    bottom: -100px;
+}
+.nav-item{
+    background-color: #C72727;
+    width: 115%;
+    text-align: center;
+    padding: 25px;
+}
+.nav-item:hover{
+    background-color: #810F0E;
+}
+.nav-item-red-top{
+    content: '';
+    width: 115%;
+    height: 50px;
+    background-color: #C72727;
+}*/
+
+.info-title-text{
+    color: #233259;
+}
+.info-title-text::after{
+    content: '';
+    height: 4px;
+    width: 110px;
+    background-color: #C72727;
+    position: absolute;
+}
+
+
+.card{
+    
+}
