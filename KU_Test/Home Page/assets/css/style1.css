@@ -1,0 +1,39 @@
+.bg-background-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.404)), url('../images/bg-image.png') !important;
+}
+.info-bg-image-blue{
+    position: relative;
+    padding-bottom: 80px;
+}
+.info-image-title{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.info-image-content{
+    position: absolute;
+    top: 23%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.info-bg-image-red{
+    position: relative;
+    padding-bottom: 80px;
+}
+.info-bg-image-blue-2{
+    position: relative;
+    padding-bottom: 80px;
+}
+.info-image-content p{
+    font-size: medium;
+    padding: 0;
+}

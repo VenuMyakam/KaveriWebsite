@@ -1,0 +1,75 @@
+body {
+    font-family: 'Figtree', sans-serif;
+}
+.bg-hero-img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../images/bg-banner.png');
+    position: relative;
+    padding: 55px !important;
+}
+.info-line::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 60%;
+    width: 1px;
+    background: rgb(0, 19, 70);
+    top: 48px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+.form-control:focus {
+    color: white;
+    background-color: transparent;
+}
+
+.form-control{
+    background-color: #1C2E5B;
+    border: 1px solid #99ADDF;
+    color: white;
+    padding: 10px;
+}
+
+.text-white p {
+    cursor: pointer;
+}
+.social-icons .btn-primary{
+    background-color: transparent;
+    border: 1px solid #99ADDF;
+}
+
+@media screen and (max-width: 767px) {
+    .info-line::after {
+        content: '';
+        position: absolute;
+        display: block;
+        height: 45%;
+        width: 0px;
+        background: #001346;
+    }
+
+    .mt-0 {
+        margin-top: 50px !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .bg-hero-img{
+        padding: 30px !important;
+    }
+    .sidebar-sticky{
+        padding: 15px;
+    }
+}
+.bg-hero-img .row{
+    justify-content: space-between;
+}
+.navbar-social-icons{
+    font-size: 35px;
+    color:#FFA4A4 !important;
+}
+.navbar-social-icons:hover{
+    color: white !important;
+}
