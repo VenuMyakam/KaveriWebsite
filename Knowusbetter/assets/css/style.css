@@ -16,7 +16,68 @@ body{
    position: absolute;
    background-color: #B72928;
    height: 3px;
-   width: 12%;
+   width: 90px;
    bottom: -10px;
    left: 0;
+}
+.card{
+    height: 220px;
+    width: 220px !important;
+    margin-right: 20px;
+    border-radius: 25px;
+    align-items: center !important;
+    justify-content: center;
+}
+.bg-card-01{
+    background-color: #F6DE8D !important;
+}
+.bg-card-02{
+    background-color: #D44F43 !important;
+    border: 0;
+}
+.bg-card-03{
+    background-color: #A12845 !important;
+    border: 0;
+}
+.bg-card-04{
+    background-color: #611F86 !important;
+    border: 0;
+}
+.bg-card-05{
+    background-color: #203462 !important;
+    border: 0;
+}
+.bg-card-06{
+    background-color: #41708C !important;
+    
+}
+
+.border-line::before, .border-line::after {
+    position: absolute;
+    content: "";
+    z-index: 2;
+}
+.border-line::before, .border-line::after {
+    width: 25%;
+    height: 30%;
+    transition: 0.35s;
+}
+.border-line::before {
+    top: 0;
+    left: 0;
+    border-left: 4px solid #233259;
+    border-top: 4px solid #233259;
+    border-top-left-radius: 1.5rem;
+    
+}
+.border-line::after {
+    bottom: 0;
+    right: 0;
+    border-right: 4px solid #233259;
+    border-bottom: 4px solid #233259;
+    border-bottom-right-radius: 1.5rem;
+}
+.border-line:hover::before, .border-line:hover::after {
+    width: 100%;
+    height: 100%;
 }

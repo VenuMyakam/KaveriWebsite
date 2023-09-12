@@ -16,9 +16,9 @@
 </head>
 <body>
     <section class="info-bg-white">
-        <div class="container px-5 py-5"> 
+        <div class="container py-5"> 
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <div class="text-start">
                         <h5>Know Us Better</h5>
                     </div>
@@ -29,7 +29,7 @@
                         <p>
                             The youngest university in Telangana State, Kaveri University spreads over 100 acres on the outskirts of Hyderabad 
                             along the Konda Pochamma Reservoir in Gowraram, Wargal Mandal, Siddipet District. In accordance with the National 
-                            Education Policy 2020, Kaveri University is a "Multidisciplinary Education and Research University"
+                            Education Policy 2020, Kaveri University is a "Multidisciplinary Education and Research University".
                         </p>
                         <p>
                             Founded in 2023, with the mission to explore the physical world collectively, it aims to expand into 7 
@@ -40,20 +40,15 @@
                             with each college supported by 16 specialized "Centres of Excellence, which provide advanced education, training
                             , and research opportunities for students.
                         </p>
-                        <p>
-                            The youngest university in Telangana State, Kaveri University spreads over 100 acres on the outskirts of Hyderabad 
-                            along the Konda Pochamma Reservoir in Gowraram, Wargal Mandal, Siddipet District. In accordance with the National 
-                            Education Policy 2020, Kaveri University is a "Multidisciplinary Education and Research University"
-                        </p>
                     </div>
                     
                 </div>
-                <div class="col-md-5">
-                    <img class="img-fluid" src="assets/img/img-know-us-better.png">
+                <div class="col-md-6 pb-3">
+                    <img class="img-fluid d-block mx-auto" src="assets/img/img-know-us-better.png">
                 </div>
             </div>
             <div class="row">
-                <div class="col-auto">
+                <div class="col-md-10">
                     <p>
                         Kaveri University's strength lies in its collaboration with Kaveri Seeds research institutes and also in 
                         the combined efforts of the various fields of social sciences and emerging Fourth Industrial Revolution 
@@ -76,7 +71,49 @@
         <div class="container">
             <div class="row">
                 <div class="col-auto">
-                    
+                    <div class="text-start">
+                        <h2 class="fw-bold">PAN INDIA PRESENCE</h2>
+                    </div>
+                </div>
+                <div class="container pt-5">
+                    <div class="homeslider">
+                        <div class="card bg-card-01 text-center border-line">
+                            <div class="card-body">
+                              <h3 class="card-text fw-bold">PSSB-ICAR</h3>
+                              <p class="card-text">APPORVED</p>
+                            </div>
+                        </div>
+                        <div class="card bg-card-02 text-center border-line">
+                            <div class="card-body">
+                              <h3 class="card-text fw-bold">PSSB-ICAR</h3>
+                              <p class="card-text">APPORVED</p>
+                            </div>
+                        </div>
+                        <div class="card bg-card-03 text-center border-line">
+                            <div class="card-body">
+                              <h3 class="card-text fw-bold">PSSB-ICAR</h3>
+                              <p class="card-text">APPORVED</p>
+                            </div>
+                        </div>
+                        <div class="card  bg-card-04 text-center border-line">
+                            <div class="card-body">
+                              <h3 class="card-text fw-bold">PSSB-ICAR</h3>
+                              <p class="card-text">APPORVED</p>
+                            </div>
+                        </div>
+                        <div class="card bg-card-05 text-center border-line">
+                            <div class="card-body">
+                              <h3 class="card-text fw-bold">PSSB-ICAR</h3>
+                              <p class="card-text">APPORVED</p>
+                            </div>
+                        </div>
+                        <div class="card bg-card-06 text-center border-line">
+                            <div class="card-body">
+                              <h3 class="card-text fw-bold">PSSB-ICAR</h3>
+                              <p class="card-text">APPORVED</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -98,5 +135,57 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.0/slick.min.js"></script>
+    <script>
+        $('.homeslider').slick({
+        infinite: false,
+        slidesToShow: 3.9,
+        slidesToScroll: 1,
+        appendArrows:('.arrows-advantage-slider'),
+        prevArrow: '<i class="bi bi-arrow-left text-danger"></i>',
+        nextArrow: '<i class="bi bi-arrow-right text-danger"></i>',
+        responsive: [
+        {
+        breakpoint: 1026,
+        settings: {
+            slidesToShow: 3.2,
+            slidesToScroll: 1,
+            infinite: false,
+            dots: false
+        }
+        },
+        {
+        breakpoint: 990,
+        settings: {
+            slidesToShow: 2.9,
+            slidesToScroll: 1
+        }
+        },
+        {
+        breakpoint: 600,
+        settings: {
+            slidesToShow: 2.2,
+            slidesToScroll: 1
+        }
+        },
+        {
+        breakpoint: 480,
+        settings: {
+            slidesToShow: 1.4,
+            slidesToScroll: 1
+        }
+        },
+        {
+        breakpoint: 375,
+        settings: {
+            slidesToShow: 1.2,
+            slidesToScroll: 1
+        }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+    ]
+    });
+        </script>
 </body>
 </html>
