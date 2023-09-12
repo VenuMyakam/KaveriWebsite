@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: Figtree, sans-serif;
+}
+.text-start h5{
+    color: #B72928;
+}
+.text-start h2{
+    color: #233259;
+    position: relative;
+}
+.text-start h2::after{
+   content: '';
+   position: absolute;
+   background-color: #B72928;
+   height: 3px;
+   width: 12%;
+   bottom: -10px;
+   left: 0;
+}
