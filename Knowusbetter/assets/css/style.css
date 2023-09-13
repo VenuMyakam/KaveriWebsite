@@ -25,6 +25,7 @@ body{
     width: 220px !important;
     margin-right: 20px;
     border-radius: 25px;
+    border: 0;
     align-items: center !important;
     justify-content: center;
 }
@@ -53,8 +54,8 @@ body{
 }
 
 .border-line::before, .border-line::after {
-    position: absolute;
     content: "";
+    position: absolute;
     z-index: 2;
 }
 .border-line::before, .border-line::after {
@@ -65,16 +66,16 @@ body{
 .border-line::before {
     top: 0;
     left: 0;
-    border-left: 4px solid #233259;
-    border-top: 4px solid #233259;
+    border-left: 3px solid #233259;
+    border-top: 3px solid #233259;
     border-top-left-radius: 1.5rem;
     
 }
 .border-line::after {
     bottom: 0;
     right: 0;
-    border-right: 4px solid #233259;
-    border-bottom: 4px solid #233259;
+    border-right: 3px solid #233259;
+    border-bottom: 3px solid #233259;
     border-bottom-right-radius: 1.5rem;
 }
 .border-line:hover::before, .border-line:hover::after {
